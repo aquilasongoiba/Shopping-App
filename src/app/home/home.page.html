@@ -1,0 +1,23 @@
+<ion-header translucent>
+  <ion-toolbar color="primary">
+    <ion-title>
+      IkaSUGU
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+<h1>inserer un produit dans la base</h1>
+<div>
+  <ion-label>Nom</ion-label>
+  <ion-input  type="text" [(ngModel)]="nom" ></ion-input>
+</div>
+<div>
+  <ion-label>description</ion-label>
+  <ion-input  type="text" [(ngModel)]="description" ></ion-input>
+</div>
+<ion-button (click)="insertArticles()">Insérer</ion-button>
+<ion-button (click)="loadArticles()">Afficher</ion-button>
+<ion-button (click)="updateArticles()">Modifier</ion-button>
+<ion-button (click)="removeArticles()">Supprimer</ion-button>
+
+</ion-content>

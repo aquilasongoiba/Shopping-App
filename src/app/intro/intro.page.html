@@ -1,0 +1,27 @@
+
+<ion-content>
+  <ion-slides pager="true">
+    <ion-slide>
+      <h1>Bienvenue</h1>
+      <div class="icon-container">
+        <ion-icon class="icon" name = "card"></ion-icon>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Connexion</h1>
+      <div class="icon-container">
+        <ion-icon class="icon" name = "log-in"></ion-icon>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <ion-button expand="block" (click)="logInWithFacebook()">
+        <ion-icon  slot="start" name="logo-facebook"></ion-icon>
+        Facebook
+      </ion-button>
+      <ion-button slot="start" expand="block" color="warning">
+        <ion-icon name="call-outline"></ion-icon>
+        Téléphone
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

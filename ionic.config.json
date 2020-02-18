@@ -1,0 +1,7 @@
+{
+  "name": "ikasugu",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
